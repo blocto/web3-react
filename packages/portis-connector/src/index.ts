@@ -1,5 +1,5 @@
-import { ConnectorUpdate } from '@web3-react/types'
 import { AbstractConnector } from '@web3-react/abstract-connector'
+import { ConnectorUpdate } from '@web3-react/types'
 import invariant from 'tiny-invariant'
 
 const chainIdToNetwork: { [network: number]: string } = {
@@ -19,7 +19,12 @@ const chainIdToNetwork: { [network: number]: string } = {
   18: 'thundercoreTestnet',
   163: 'lightstreams',
   122: 'fuse',
-  15001: 'maticTestnet'
+  1337: 'devChain',
+  31337: 'hardhat',
+  137: 'matic',
+  80001: 'maticMumbai',
+  288: 'boba',
+  28: 'bobaRinkeby'
 }
 
 type Network = number | { chainId: string; [key: string]: any }
