@@ -324,6 +324,23 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@blocto/sdk@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@blocto/sdk/-/sdk-0.7.0.tgz#05c2c2f46451188c994bddebb0f59c01753c1506"
+  integrity sha512-cZie3Rqi2P8byujCHqr50ZyKJCf3fxsJGSV71gQNf7GR8h3TQdlJrZpHSLF2XIqdHJGTxaemq7yFcinNrWgbHQ==
+  dependencies:
+    buffer "^6.0.3"
+    eip1193-provider "^1.0.1"
+    js-sha3 "^0.8.0"
+
+"@blocto/web3-react-connector@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@blocto/web3-react-connector/-/web3-react-connector-1.0.2.tgz#a2eeb455cddd8f1c119eae24477959a33958539b"
+  integrity sha512-vh8ExIGnRKsMWUtz6InyFVnelL9DntrZqliOVnOnCDCEfrI7StfVPrEXgjvbAALIhWQM8SHnjDsBD0EzmLx+nQ==
+  dependencies:
+    "@blocto/sdk" "^0.7.0"
+    "@web3-react/types" "^8.1.2-beta.0"
+
 "@coinbase/wallet-sdk@^3.3.0":
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/@coinbase/wallet-sdk/-/wallet-sdk-3.3.0.tgz#e77383bce1388e5367dc35f8309702e73be47503"
@@ -4489,7 +4506,7 @@ eastasianwidth@^0.2.0:
   resolved "https://registry.yarnpkg.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
-eip1193-provider@1.0.1:
+eip1193-provider@1.0.1, eip1193-provider@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/eip1193-provider/-/eip1193-provider-1.0.1.tgz#420d29cf4f6c443e3f32e718fb16fafb250637c3"
   integrity sha512-kSuqwQ26d7CzuS/t3yRXo2Su2cVH0QfvyKbr2H7Be7O5YDyIq4hQGCNTo5wRdP07bt+E2R/8nPCzey4ojBHf7g==
@@ -6719,7 +6736,7 @@ js-sha256@0.9.0:
   resolved "https://registry.yarnpkg.com/js-sha256/-/js-sha256-0.9.0.tgz#0b89ac166583e91ef9123644bd3c5334ce9d0966"
   integrity sha512-sga3MHh9sgQN2+pJ9VYZ+1LPwXOxuBJBA5nrR5/ofPfuiJBE2hnjsaN8se8JznOmGLN2p49Pe5U/ttafcs/apA==
 
-js-sha3@0.8.0:
+js-sha3@0.8.0, js-sha3@^0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.8.0.tgz#b9b7a5da73afad7dedd0f8c463954cbde6818840"
   integrity sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q==
